@@ -1,0 +1,29 @@
+{
+  "name": "nasa-explorer-api",
+  "version": "1.0.0",
+  "description": "Documentation URL: </br> https://api.nasa.gov/index.html </br> https://api.nasa.gov/api.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enasskmal/NASA-Explorer-Api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enasskmal/NASA-Explorer-Api/issues"
+  },
+  "homepage": "https://github.com/enasskmal/NASA-Explorer-Api#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
