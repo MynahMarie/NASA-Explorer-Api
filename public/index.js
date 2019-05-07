@@ -44,7 +44,6 @@ fetch('/startDate='+startDate+endDate)
 })
 .then((data) => {
   console.log('data=>', data);
-
 })
   .catch((error) => {
     console.log(error);
